@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="produce_server" />
+        <module name="parent_server" />
+        <module name="consumer_server" />
+        <module name="consumer_server1" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="consumer_server" target="1.8" />
+      <module name="consumer_server1" target="1.8" />
+      <module name="parent_server" target="1.8" />
+      <module name="produce_server" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="consumer_server" options="-parameters" />
+      <module name="consumer_server1" options="-parameters" />
+      <module name="parent_server" options="-parameters" />
+      <module name="produce_server" options="-parameters" />
+    </option>
+  </component>
+</project>

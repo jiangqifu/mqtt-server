@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/consumer_server/consumer_server.iml" filepath="$PROJECT_DIR$/consumer_server/consumer_server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/consumer_server1/consumer_server1.iml" filepath="$PROJECT_DIR$/consumer_server1/consumer_server1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parent_server.iml" filepath="$PROJECT_DIR$/parent_server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/produce_server/produce_server.iml" filepath="$PROJECT_DIR$/produce_server/produce_server.iml" />
+    </modules>
+  </component>
+</project>
